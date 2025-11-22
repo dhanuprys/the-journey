@@ -14,8 +14,10 @@ Tanpa berlama-lama lagi, langsung saja kita coba implementasikan apa yang sudah 
 
 Perintah umum untuk membuat private key:
 
-* openssl genpkey .... <- generate ECC (Elliptic Curve Cryptography)
-* openssl genrsa ..... <- generate RSA (udah tua)
+```
+openssl genpkey .... <- generate ECC (Elliptic Curve Cryptography)
+openssl genrsa ..... <- generate RSA (udah tua)
+```
 
 Sumber:
 
@@ -130,9 +132,9 @@ openssl x509 -req -in server.csr -days 365 -CA root-ca.crt -CAkey root-ca.key -C
 
 Yang ada pada webserver/production hanya:
 
-* server.key
-* server.crt
-* root-ca.crt
+* `server.key`
+* `server.crt`
+* `root-ca.crt`
 
 {% hint style="warning" %}
 root-ca.key harus ada pada perangkat lokal atau pun tempat penyimpanan yang benar-benar aman dan tidak memiliki kerentanan.
