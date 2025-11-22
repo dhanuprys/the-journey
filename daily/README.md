@@ -1,2 +1,6 @@
-# Page
+---
+icon: calendar-star
+---
+
+# Daily
 
