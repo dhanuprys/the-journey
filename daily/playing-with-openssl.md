@@ -1,7 +1,3 @@
----
-icon: '1'
----
-
 # Playing With OpenSSL
 
 Hari ini, sedikit dari keresahan saya terhadap certificate generation sudah terjawab. Saya menyebut ini sebagai certificate-phobia. Wkwkwk iya, _certificate-phobia_ kondisi di mana saya selalu takut dengan konfigurasi-konfigurasi yang melibatkan pembuatan certificate maupun penggunaannya. Namun setelah saya belajar sedikit tentang bagaimana cara kerjanya, bagaimana cara menggunakannya, hingga bagaiamana cara menggunakan tools yang bernama **openssl** untuk membuat certificate dan melakukan signing. Hidup saya terasa seperti menemukan air di gurun. (tulisan ini sudah cukup membuat freak belum? wkwkwk).
