@@ -1,2 +1,6 @@
+---
+icon: file
+---
+
 # Template: Makefile
 
