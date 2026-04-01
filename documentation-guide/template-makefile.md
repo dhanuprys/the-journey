@@ -1,6 +1,0 @@
----
-icon: file
----
-
-# Template: Makefile
-
